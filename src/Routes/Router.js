@@ -6,7 +6,7 @@ import PokemonDetailPage from "../Pages/PokemonDetailPage/PokemonDetailPage"
 export default function Router() {
     
     return (
-        <BrowserRouter basename="pokedex">
+        <BrowserRouter basename="Pokedex">
             <Routes>
                 <Route path='/' element={<PokemonsListPage />} />
                 <Route path='/details/:name' element={<PokemonDetailPage />} />
