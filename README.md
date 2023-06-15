@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+![Banner](https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/3db78591-ecaa-46fb-a58d-7cbff75ecc8e)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center" id="title">Pokédex</h1>
 
-## Available Scripts
+<p id="description">Este é Projeto Pokedex o projeto que não pode faltar no repositório de nenhum Dev Junior que se preze 😎 Consiste em um sistema desenvolvido em React que acessa a Api Pública PokeApi (muito usada para aplicações focadas em aprendizado de programação) e exibe pokemons e suas respectivas informações.</p>
 
-In the project directory, you can run:
+<p align="center"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&amp;logo=react&amp;logoColor=%2361DAFB" alt="shields"><img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&amp;logo=react-router&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&amp;logo=styled-components&amp;logoColor=white" alt="shields"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&amp;logo=javascript&amp;logoColor=%23F7DF1E" alt="shields"><img src="https://img.shields.io/badge/chakra-%234ED1C5.svg?style=for-the-badge&amp;logo=chakraui&amp;logoColor=white" alt="shields"></p>
 
-### `npm start`
+<h2>🚀 Demo</h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[https://felipeg-almeida.github.io/Pokedex/](https://felipeg-almeida.github.io/Pokedex/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2>📷 Capturas</h2>
 
-### `npm test`
+<h3>Desktop 🖥️</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h4 align="center">Tela inicial</h4>
 
-### `npm run build`
+![felipeg-almeida github io_Pokedex_ (1)](https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/46b1d781-3559-46f9-bcdb-f396046c2ada)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h4 align="center">Detalhes</h4>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![felipeg-almeida github io_Pokedex_ (3)](https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/d65c164b-2ead-4812-9091-8e7a90687a48)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h4 align="center">Captura</h4>
 
-### `npm run eject`
+![felipeg-almeida github io_Pokedex_](https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/1279e604-5b3a-49b3-835a-05cfccc23dd7)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<h3>Mobile e Tablet 📱</h3>
+<p align="center">
+  <kbd>
+    <img width="50%" src="https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/c42c5469-a58c-4a75-b185-06824d82ab01" />
+  </kbd>
+</p>
+ 
+<p align="center">
+  <kbd>
+    <img width="50%" src="https://github.com/FelipeG-Almeida/Pokedex/assets/73674044/d09cb891-66e5-4951-a5ae-e5c098e675ec" />
+  </kbd>
+</p>
+ 
+<h2>🧐 Funcionalidades</h2>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Algumas funcionalidades do projeto incluem:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+*   Exibe uma lista de diversos Pokemons
+*   Em cada card de Pokemon tem um botão para adicioná-lo à Pokedex e um outro botão para acessar os detalhes do Pokemon
+*   A página Pokedex guarda no local storage os Pokemons capturados
+*   Na página de detalhes do Pokemon é possível visualizar seus sprites suas características estatísticas e movimentos
+*   Na página inicial é possível percorrer os Pokemons pelos botões de navegação ou filtrar por tipo de Pokemon
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h2>🛠️ Configuração:</h2>
 
-## Learn More
+<p>1. Certifique-se de ter o Node.js instalado em sua máquina.</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>2. Clone este repositório para o seu ambiente de desenvolvimento local.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+git clone https://github.com/FelipeG-Almeida/Pokedex.git
+```
 
-### Code Splitting
+<p>3. Acesse o diretório do projeto.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+cd pokedex
+```
 
-### Analyzing the Bundle Size
+<p>4. Instale as dependências do projeto utilizando o npm ou yarn.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm install
+```
 
-### Making a Progressive Web App
+<p>5. Inicie o servidor de desenvolvimento.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+npm start
+```
 
-### Advanced Configuration
+<p>6. O projeto estará disponível no seguinte endereço: http://localhost:3000.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+  
+  
+<h2>💻 Constrúido com</h2>
 
-### Deployment
+Tecnologias usadas no projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+*   React: Uma biblioteca JavaScript amplamente utilizada para construir interfaces de usuário interativas e componentes reutilizáveis.
+*   PokeApi: Uma API pública que fornece acesso a informações sobre pokemons incluindo detalhes imagens e outros dados relevantes.
+*   Styled-components: Uma biblioteca de estilização para React que permite escrever estilos utilizando componentes JavaScript.
+*   Chakra-UI: Uma biblioteca de componentes para React que facilita a construção de interfaces elegantes e responsivas.
+*   JavaScript: A linguagem de programação fundamental utilizada para desenvolver a lógica e interatividade do projeto.
+*   Outras bibliotecas do ecossistema React como React Router Axios entre outras foram utilizadas para facilitar o desenvolvimento e melhorar a experiência do usuário.
 
-### `npm run build` fails to minify
+<h2>🤓 Aprendizado</h2>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Durante o desenvolvimento deste projeto Pokedex, tive uma experiência incrível trabalhando com React e a PokeApi. A jornada de aprendizado envolveu diversos conceitos interessantes, sendo que dois deles se destacaram como os maiores desafios: o uso de estado global e o React Context.
+
+No geral, o desenvolvimento desta Pokedex me proporcionou uma compreensão mais profunda de como trabalhar com React e APIs. Através desse projeto, pude explorar conceitos avançados e consolidar meus conhecimentos em desenvolvimento web, expandindo minhas habilidades e ampliando minha visão sobre as possibilidades da programação.
+
+Foi uma experiência gratificante enfrentar esses desafios e, ao final, obter sucesso na construção de uma aplicação divertida e funcional. Estou animado para continuar explorando e aprimorando minhas habilidades com React e explorar novas APIs e tecnologias em projetos futuros.
+
+---
