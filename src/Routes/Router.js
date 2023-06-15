@@ -6,11 +6,11 @@ import PokemonDetailPage from "../Pages/PokemonDetailPage/PokemonDetailPage"
 export default function Router() {
     
     return (
-        <BrowserRouter basename="projeto-frontendreact">
+        <BrowserRouter basename="pokedex">
             <Routes>
                 <Route path='/' element={<PokemonsListPage />} />
                 <Route path='/details/:name' element={<PokemonDetailPage />} />
-                <Route path='/pokedex' element={<PokedexPage />} />
+                <Route path='/pokeballs' element={<PokedexPage />} />
             </Routes>
         </BrowserRouter>
     )
