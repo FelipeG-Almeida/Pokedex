@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/projeto-frontendreact/static/js/main.99e7a548.js",
+    "main.js": "/projeto-frontendreact/static/js/main.0fcd387f.js",
     "static/media/logoPokemon.svg": "/projeto-frontendreact/static/media/logoPokemon.c9d0b2221dbbc0b90285b23aefbab793.svg",
     "static/media/cardBackground.svg": "/projeto-frontendreact/static/media/cardBackground.9e9d3ce7fef6e0e6a67b3ef7015535cc.svg",
     "static/media/dragon.svg": "/projeto-frontendreact/static/media/dragon.e625480e809beca986b8.svg",
@@ -24,9 +24,9 @@
     "index.html": "/projeto-frontendreact/index.html",
     "static/media/github.svg": "/projeto-frontendreact/static/media/github.6bbe368fee1d0d371cb75accade393b2.svg",
     "static/media/linkedin.svg": "/projeto-frontendreact/static/media/linkedin.cdf2f9119a0eea268376072783e7b022.svg",
-    "main.99e7a548.js.map": "/projeto-frontendreact/static/js/main.99e7a548.js.map"
+    "main.0fcd387f.js.map": "/projeto-frontendreact/static/js/main.0fcd387f.js.map"
   },
   "entrypoints": [
-    "static/js/main.99e7a548.js"
+    "static/js/main.0fcd387f.js"
   ]
 }
